@@ -15,7 +15,12 @@ plainwhite:
   date_format: "%-d %b, %Y"
   sitemap: false # set to true to generate sitemap.xml content
   navigation:
-    - blog: ./blog
+    - url: /blog
+      title: Blog
+    - url: /tools
+      title: Mes Outils
+    - url: /podcasts
+      title: Mes Podcasts
 
   # generate social links in footer
   social_links:
